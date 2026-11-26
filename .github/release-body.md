@@ -1,4 +1,4 @@
-![demo](https://raw.githubusercontent.com/sa-aris/Context-Bridge/main/docs/assets/demo.gif)
+![demo](https://raw.githubusercontent.com/montecharlo/Context-Bridge/main/docs/assets/demo.gif)
 
 **Context Bridge** is shared neural memory middleware for multi-agent systems —
 agents write into one governed pool and recall only the task-scoped,

@@ -9,7 +9,7 @@ Context Bridge is pre-1.0; security fixes are applied to the `main` branch.
 Please **do not** open a public issue for security vulnerabilities.
 
 Instead, report privately via GitHub's
-[security advisories](https://github.com/sa-aris/context-bridge/security/advisories/new)
+[security advisories](https://github.com/montecharlo/context-bridge/security/advisories/new)
 ("Report a vulnerability"). Include:
 
 - a description of the issue and its impact,
