@@ -6,9 +6,9 @@
 
 *Stop passing giant transcripts between agents. Give them a shared memory and let each one recall only what it needs.*
 
-<img src="https://raw.githubusercontent.com/montecharlo/Context-Bridge/main/docs/assets/demo.gif" alt="Context Bridge quickstart: three agents share one memory pool and a fourth recalls only the relevant, budgeted slice" width="820">
+<img src="https://raw.githubusercontent.com/heysuffix/Context-Bridge/main/docs/assets/demo.gif" alt="Context Bridge quickstart: three agents share one memory pool and a fourth recalls only the relevant, budgeted slice" width="820">
 
-[![CI](https://github.com/montecharlo/context-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/montecharlo/context-bridge/actions/workflows/ci.yml)
+[![CI](https://github.com/heysuffix/Context-Bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/heysuffix/Context-Bridge/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/context-bridge-memory.svg)](https://pypi.org/project/context-bridge-memory/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
@@ -208,7 +208,7 @@ pip install "context-bridge-memory[fastembed,redis,postgres]"   # full local sta
 From source (for development):
 
 ```bash
-git clone https://github.com/montecharlo/context-bridge && cd context-bridge
+git clone https://github.com/heysuffix/Context-Bridge && cd context-bridge
 uv pip install -e ".[dev]"
 ```
 
@@ -241,7 +241,7 @@ Run the whole tour offline in one command — it uses real local embeddings
 python examples/quickstart.py
 ```
 
-<img src="https://raw.githubusercontent.com/montecharlo/Context-Bridge/main/docs/assets/demo.gif" alt="Context Bridge quickstart output — animated terminal recording" width="820">
+<img src="https://raw.githubusercontent.com/heysuffix/Context-Bridge/main/docs/assets/demo.gif" alt="Context Bridge quickstart output — animated terminal recording" width="820">
 
 Or drive it over HTTP. **Write two memories from two different agents, then recall just the relevant one:**
 
